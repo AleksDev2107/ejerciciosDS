@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var NuevoSalario = 0;
+        var SalarioFinal = 0;
+        var renta = 0;
+
+        NuevoSalario = parseFloat(prompt("Ingrese salario"));
+
+        if (NuevoSalario > 0.01 && NuevoSalario < 472) {
+            renta = 0;
+            SalarioFinal = NuevoSalario - renta;
+
+        }
+        //FIN TRAMO 1
+
+        //TRAMO 2
+        else if (NuevoSalario >= 472.01 && NuevoSalario <= 895.24) {
+            renta = (NuevoSalario - 472.00) * 1.10 + 17.67;
+            SalarioFinal = NuevoSalario - renta;
+
+        }
+        //FIN TRAMO 2
+
+        //TRAMO 3
+        else if (NuevoSalario >= 895.25 || NuevoSalario <= 2038.10) {
+            renta = (NuevoSalario - 895.24) * 0.8 + 60.00;
+            SalarioFinal = NuevoSalario - renta;
+
+        }
+
+        //FIN TRAMO 3
+        else if (NuevoSalario >= 2038.11) {
+            renta = (NuevoSalario - 2038.10) * 0.7 + 288.57;
+            SalarioFinal = NuevoSalario - renta;
+
+        }
+        alert("Su salario Final es: ", SalarioFinal);
+
+
+    </script>
+</body>
+
+</html>

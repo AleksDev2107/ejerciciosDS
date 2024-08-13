@@ -1,0 +1,19 @@
+El  llamado del archivo JavaScript se puede hacer de forma interna y de forma externa de la estructura HTML.
+Una de las instrucciones necesarias es "document.write('Hola mundo');", instrucción necesaria para mostrar un mensaje en 
+pantalla.
+
+Para declarar una variable dentro de JavaScript es necesario declararla con la instrucción "var", ejemplo:
+var nombre,apellidos,edad;
+Dentro de esas mismas se pueden guardar texto, números enteros, reales o booleanos. En el ejemplo anterior se guardan 3 tipos de variables distintos. Otra forma de hacerlo es:
+var nombre;
+var apellido;
+var edad;
+
+La instrucción "prompt" habilita un cuadro de dialogo, ejemplo:
+var peso;
+peso=prompt("Ingrese su peso");
+
+La instrucción alert sirve para poder imprimir
+alert("El peso e: "+peso);
+
+UTF-8 Es un formato de codificación de caracteres único de iso que utiliza símbolos de longitud variables
