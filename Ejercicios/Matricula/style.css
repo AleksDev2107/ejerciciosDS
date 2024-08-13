@@ -1,0 +1,26 @@
+div{
+    position: absolute;
+    border-style: inset ; 
+    border-color: black; 
+    border-radius: 10px;
+    width: 140px;
+    height: 160px;
+    top: 10px;
+    left: 1050px;
+}
+
+#photo{
+    position: absolute;
+    width: 100px;
+    align-content: center;
+    padding-left: 20px;
+    padding-top: 30px;
+    height: 100px;
+}
+
+#tb1{
+    position: relative;
+    top: -40px;
+}
+
+
