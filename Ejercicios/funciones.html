@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="funciones.js"></script>
+</head> 
+<body>
+    <script>
+        var menu=0;
+        menu=parseInt(prompt("Elija la opcion deseada: \n 1. Imprimir semana \n 2. Imprimir frase \n 3.Imprimir en ascendente \n 4. Imprimir en descendente"));
+        switch(menu){
+            case 1:
+            document.write("<h2>Imprimiendo semana <br></h2>");
+            semanita();
+                break;
+            case 2:
+                
+        document.write("<h2>Imprimiendo frase<br></h2>");
+        texto();
+                break;
+            case 3:
+            document.write("<h2>Imprimiendo en orden ascendente<br></h2>");
+            serie();
+                break;
+            case 4:
+            document.write("<h2>Imprimiendo en orden inverso<br></h2>");
+            inverso();
+                break;
+            default:
+                alert("error");
+                break;
+        }
+
+        document.write("<br>")
+  
+        document.write("<br>")
+   
+        document.write("<br>")
+        
+    </script>
+</body>
+</html>
